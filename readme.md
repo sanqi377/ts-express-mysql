@@ -18,6 +18,28 @@ npm run build
 npm run dev
 ```
 
+## 目录结构
+
+```
+.
+├── app.ts # 主入口文件
+├── package.json
+├── config # 配置文件夹
+|    └── setting.ts # 基本配置
+├── controller # 控制器文件夹
+│    └── index
+|       └── index.ts
+├── model # 数据库操作
+│    └── index
+|       └── index.ts
+├── middleware # 中间件
+|    └── cors.ts
+│    └── index
+|       └── checkLogin.ts
+├── util # 公共
+│    └── util.ts
+```
+
 ## Mysql 命令
 
 ### 文件引入
