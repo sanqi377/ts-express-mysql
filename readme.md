@@ -68,6 +68,12 @@ db('table').select()
 db('table').where({id:1}).update({name:'叁柒',sex:'男'})
 ```
 
+### 新增
+
+```js
+db('table').insert({name:'叁柒',sex:'男'})
+```
+
 ### 删除
 
 ```js
