@@ -4,6 +4,20 @@
 npm install
 ```
 
+## 编译命令
+
+```
+npm run build
+```
+
+编译在 `./dist` 目录下
+
+## 运行命令
+
+```
+npm run dev
+```
+
 ## Mysql 命令
 
 ### 文件引入
