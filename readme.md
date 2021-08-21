@@ -62,6 +62,12 @@ db('table').find()
 db('table').select()
 ```
 
+### 查询不等于
+
+```js
+db('table').whereNo({status:1}).select()
+```
+
 ### 更新
 
 ```js
