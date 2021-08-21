@@ -74,6 +74,12 @@ db('table').whereNo({status:1}).select()
 db('table').where({id:1}).whereNo({status:1}).select()
 ```
 
+### 模糊查询
+
+```js
+db('table').like({name:'%叁柒%'}).select()
+```
+
 ### 更新
 
 ```js
