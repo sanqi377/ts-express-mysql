@@ -68,6 +68,12 @@ db('table').select()
 db('table').whereNo({status:1}).select()
 ```
 
+可与 `where` 连用
+
+```js
+db('table').where({id:1}).whereNo({status:1}).select()
+```
+
 ### 更新
 
 ```js
