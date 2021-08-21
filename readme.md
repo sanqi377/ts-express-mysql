@@ -62,7 +62,7 @@ db('table').find()
 db('table').select()
 ```
 
-### 查询不等于
+#### 查询不等于
 
 ```js
 db('table').whereNo({status:1}).select()
@@ -74,7 +74,7 @@ db('table').whereNo({status:1}).select()
 db('table').where({id:1}).whereNo({status:1}).select()
 ```
 
-### 模糊查询
+#### 模糊查询
 
 ```js
 db('table').like({name:'%叁柒%'}).select()
