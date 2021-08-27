@@ -80,6 +80,14 @@ db('table').where({id:1}).whereNo({status:1}).select()
 db('table').like({name:'%叁柒%'}).select()
 ```
 
+#### 指定数目返回
+
+```js
+// number: 返回前 number 个数据
+// number1: 必须跟 number 同时出现 返回 number - number1 中的数据
+db('table').limit(number,number1).select()
+```
+
 ### 更新
 
 ```js
